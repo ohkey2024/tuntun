@@ -2,6 +2,18 @@
 #EXT-X-VERSION:3
 #EXT-X-INDEPENDENT-SEGMENTS
 
-# Unknownp
-#EXT-X-STREAM-INF:BANDWIDTH=0,AVERAGE-BANDWIDTH=0,CODECS="avc1.4d402a,mp4a.40.2",RESOLUTION=Unknown,FRAME-RATE=25
-https://tonton-live-switch-ssar.akamaized.net/stream-tv3/master.m3u8?bpkio_serviceid=6c0958d82a830a02ca0936d9cfab8311&hdnts=exp=1742228234~hmac=49d99e6607bf429f234f776fad86abbe6930b8004263dba34c90fd5a8b9de9bf
+# 1080p
+#EXT-X-STREAM-INF:BANDWIDTH=4646400,AVERAGE-BANDWIDTH=4470400,CODECS="avc1.64002a,mp4a.40.2",RESOLUTION=1920x1080,FRAME-RATE=25
+https://tonton-live-switch-ssar.akamaized.net/stream-tv3/master_1080.m3u8?bpkio_serviceid=6c0958d82a830a02ca0936d9cfab8311&bpkio_sessionid=10e3f43e44-73f70933-82af-4e4b-a8e2-161daff86b86&category=all
+
+# 720p
+#EXT-X-STREAM-INF:BANDWIDTH=2930400,AVERAGE-BANDWIDTH=2820400,CODECS="avc1.4d402a,mp4a.40.2",RESOLUTION=1280x720,FRAME-RATE=25
+https://tonton-live-switch-ssar.akamaized.net/stream-tv3/master_720.m3u8?bpkio_serviceid=6c0958d82a830a02ca0936d9cfab8311&bpkio_sessionid=10e3f43e44-73f70933-82af-4e4b-a8e2-161daff86b86&category=all
+
+# 540p
+#EXT-X-STREAM-INF:BANDWIDTH=1786400,AVERAGE-BANDWIDTH=1720400,CODECS="avc1.4d402a,mp4a.40.2",RESOLUTION=960x540,FRAME-RATE=25
+https://tonton-live-switch-ssar.akamaized.net/stream-tv3/master_540.m3u8?bpkio_serviceid=6c0958d82a830a02ca0936d9cfab8311&bpkio_sessionid=10e3f43e44-73f70933-82af-4e4b-a8e2-161daff86b86&category=all
+
+# 360p
+#EXT-X-STREAM-INF:BANDWIDTH=985600,AVERAGE-BANDWIDTH=950400,CODECS="avc1.4d402a,mp4a.40.2",RESOLUTION=640x360,FRAME-RATE=25
+https://tonton-live-switch-ssar.akamaized.net/stream-tv3/master_360.m3u8?bpkio_serviceid=6c0958d82a830a02ca0936d9cfab8311&bpkio_sessionid=10e3f43e44-73f70933-82af-4e4b-a8e2-161daff86b86&category=all
