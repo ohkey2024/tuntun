@@ -1,0 +1,10 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,CLOSED-CAPTIONS=NONE,BANDWIDTH=600000
+https://tonton-live-sg3.akamaized.net/live-hls/tonton10_270p/hdntl=exp=1742338274~acl=%2f*~data=hdntl~hmac=669038d9d7bdf4ccd34631ee3c77a8e24ccdb496ca50ca3feb7d507ede627886/index.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,CLOSED-CAPTIONS=NONE,BANDWIDTH=900000
+https://tonton-live-sg3.akamaized.net/live-hls/tonton10_360p/hdntl=exp=1742338274~acl=%2f*~data=hdntl~hmac=669038d9d7bdf4ccd34631ee3c77a8e24ccdb496ca50ca3feb7d507ede627886/index.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,CLOSED-CAPTIONS=NONE,BANDWIDTH=1200000
+https://tonton-live-sg3.akamaized.net/live-hls/tonton10_480p/hdntl=exp=1742338274~acl=%2f*~data=hdntl~hmac=669038d9d7bdf4ccd34631ee3c77a8e24ccdb496ca50ca3feb7d507ede627886/index.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,CLOSED-CAPTIONS=NONE,BANDWIDTH=1600000
+https://tonton-live-sg3.akamaized.net/live-hls/tonton10_720p/hdntl=exp=1742338274~acl=%2f*~data=hdntl~hmac=669038d9d7bdf4ccd34631ee3c77a8e24ccdb496ca50ca3feb7d507ede627886/index.m3u8
