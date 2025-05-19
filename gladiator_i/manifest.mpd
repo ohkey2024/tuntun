@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:cenc="urn:mpeg:cenc:2013" xmlns:scte214="urn:scte:dash:scte214-extensions" profiles="urn:mpeg:dash:profile:isoff-on-demand:2011" type="static" mediaPresentationDuration="PT2H29M5.559999997S" minBufferTime="PT2S">
   <Period id="1" duration="PT2H28M35.559999997S" start="PT0S">
-    <BaseURL>https://fly.asia.prd.media.max.com/43bb67d9-0be7-4007-9a82-fc95e32e2be0/v/3_b157e6/</BaseURL>
+    <BaseURL>https://gcp.asia.prd.media.max.com/43bb67d9-0be7-4007-9a82-fc95e32e2be0/</BaseURL>
     <AdaptationSet subsegmentAlignment="true" subsegmentStartsWithSAP="1" id="2" lang="en-US" contentType="audio">
       <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="01009874-1690-b04f-483f-aa1661b08aaf" value="cenc"></ContentProtection>
       <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95">
@@ -12,7 +12,7 @@
       </ContentProtection>
       <Representation mimeType="audio/mp4" audioSamplingRate="48000" bandwidth="66725" codecs="mp4a.40.5" id="a1">
         <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"></AudioChannelConfiguration>
-        <BaseURL>https://fly.asia.prd.media.max.com/43bb67d9-0be7-4007-9a82-fc95e32e2be0/v/3_b157e6/a/5_a40d27/a1.mp4</BaseURL>
+        <BaseURL>https://gcp.asia.prd.media.max.com/43bb67d9-0be7-4007-9a82-fc95e32e2be0/a/5_a40d27/a1.mp4</BaseURL>
         <SegmentBase timescale="24000" indexRange="687-27514">
           <Initialization range="0-686"></Initialization>
         </SegmentBase>
@@ -28,7 +28,7 @@
       </ContentProtection>
       <Representation mimeType="audio/mp4" audioSamplingRate="48000" bandwidth="67040" codecs="mp4a.40.5" id="a3">
         <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"></AudioChannelConfiguration>
-        <BaseURL>https://fly.asia.prd.media.max.com/43bb67d9-0be7-4007-9a82-fc95e32e2be0/v/3_b157e6/a/5_a40d27/a3.mp4</BaseURL>
+        <BaseURL>https://gcp.asia.prd.media.max.com/43bb67d9-0be7-4007-9a82-fc95e32e2be0/a/5_a40d27/a3.mp4</BaseURL>
         <SegmentBase timescale="24000" indexRange="687-27514">
           <Initialization range="0-686"></Initialization>
         </SegmentBase>
@@ -45,37 +45,37 @@
       <SupplementalProperty schemeIdUri="urn:mpeg:dash:adaptation-set-switching:2016" value="5,6"></SupplementalProperty>
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
       <Representation sar="1:1" mimeType="video/mp4" bandwidth="449228" codecs="avc1.64000d" height="234" id="v3" width="416">
-        <BaseURL>https://fly.asia.prd.media.max.com/43bb67d9-0be7-4007-9a82-fc95e32e2be0/v/3_b157e6/v/3_b157e6/v3.mp4</BaseURL>
+        <BaseURL>https://gcp.asia.prd.media.max.com/43bb67d9-0be7-4007-9a82-fc95e32e2be0/v/3_b157e6/v3.mp4</BaseURL>
         <SegmentBase timescale="25" indexRange="770-27597">
           <Initialization range="0-769"></Initialization>
         </SegmentBase>
       </Representation>
       <Representation sar="1:1" mimeType="video/mp4" bandwidth="659892" codecs="avc1.640015" height="270" id="v8" width="480">
-        <BaseURL>https://fly.asia.prd.media.max.com/43bb67d9-0be7-4007-9a82-fc95e32e2be0/v/3_b157e6/v/3_b157e6/v8.mp4</BaseURL>
+        <BaseURL>https://gcp.asia.prd.media.max.com/43bb67d9-0be7-4007-9a82-fc95e32e2be0/v/3_b157e6/v8.mp4</BaseURL>
         <SegmentBase timescale="25" indexRange="770-27597">
           <Initialization range="0-769"></Initialization>
         </SegmentBase>
       </Representation>
       <Representation sar="1:1" mimeType="video/mp4" bandwidth="1004328" codecs="avc1.640015" height="306" id="v0" width="544">
-        <BaseURL>https://fly.asia.prd.media.max.com/43bb67d9-0be7-4007-9a82-fc95e32e2be0/v/3_b157e6/v/3_b157e6/v0.mp4</BaseURL>
+        <BaseURL>https://gcp.asia.prd.media.max.com/43bb67d9-0be7-4007-9a82-fc95e32e2be0/v/3_b157e6/v0.mp4</BaseURL>
         <SegmentBase timescale="25" indexRange="772-27599">
           <Initialization range="0-771"></Initialization>
         </SegmentBase>
       </Representation>
       <Representation sar="1:1" mimeType="video/mp4" bandwidth="1597532" codecs="avc1.64001e" height="360" id="v6" width="640">
-        <BaseURL>https://fly.asia.prd.media.max.com/43bb67d9-0be7-4007-9a82-fc95e32e2be0/v/3_b157e6/v/3_b157e6/v6.mp4</BaseURL>
+        <BaseURL>https://gcp.asia.prd.media.max.com/43bb67d9-0be7-4007-9a82-fc95e32e2be0/v/3_b157e6/v6.mp4</BaseURL>
         <SegmentBase timescale="25" indexRange="772-27599">
           <Initialization range="0-771"></Initialization>
         </SegmentBase>
       </Representation>
       <Representation sar="1:1" mimeType="video/mp4" bandwidth="2416640" codecs="avc1.64001e" height="432" id="v5" width="768">
-        <BaseURL>https://fly.asia.prd.media.max.com/43bb67d9-0be7-4007-9a82-fc95e32e2be0/v/3_b157e6/v/3_b157e6/v5.mp4</BaseURL>
+        <BaseURL>https://gcp.asia.prd.media.max.com/43bb67d9-0be7-4007-9a82-fc95e32e2be0/v/3_b157e6/v5.mp4</BaseURL>
         <SegmentBase timescale="25" indexRange="771-27598">
           <Initialization range="0-770"></Initialization>
         </SegmentBase>
       </Representation>
       <Representation sar="1:1" mimeType="video/mp4" bandwidth="3837318" codecs="avc1.64001f" height="576" id="v1" width="1024">
-        <BaseURL>https://fly.asia.prd.media.max.com/43bb67d9-0be7-4007-9a82-fc95e32e2be0/v/3_b157e6/v/3_b157e6/v1.mp4</BaseURL>
+        <BaseURL>https://gcp.asia.prd.media.max.com/43bb67d9-0be7-4007-9a82-fc95e32e2be0/v/3_b157e6/v1.mp4</BaseURL>
         <SegmentBase timescale="25" indexRange="771-27598">
           <Initialization range="0-770"></Initialization>
         </SegmentBase>
@@ -92,7 +92,7 @@
       <SupplementalProperty schemeIdUri="urn:mpeg:dash:adaptation-set-switching:2016" value="4,6"></SupplementalProperty>
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
       <Representation sar="1:1" mimeType="video/mp4" bandwidth="5984800" codecs="avc1.64001f" height="720" id="v4" width="1280">
-        <BaseURL>https://fly.asia.prd.media.max.com/43bb67d9-0be7-4007-9a82-fc95e32e2be0/v/3_b157e6/v/3_b157e6/v4.mp4</BaseURL>
+        <BaseURL>https://gcp.asia.prd.media.max.com/43bb67d9-0be7-4007-9a82-fc95e32e2be0/v/3_b157e6/v4.mp4</BaseURL>
         <SegmentBase timescale="25" indexRange="771-27598">
           <Initialization range="0-770"></Initialization>
         </SegmentBase>
@@ -109,13 +109,13 @@
       <SupplementalProperty schemeIdUri="urn:mpeg:dash:adaptation-set-switching:2016" value="4,5"></SupplementalProperty>
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
       <Representation sar="1:1" mimeType="video/mp4" bandwidth="9986464" codecs="avc1.640028" height="900" id="v2" width="1600">
-        <BaseURL>https://fly.asia.prd.media.max.com/43bb67d9-0be7-4007-9a82-fc95e32e2be0/v/3_b157e6/v/3_b157e6/v2.mp4</BaseURL>
+        <BaseURL>https://gcp.asia.prd.media.max.com/43bb67d9-0be7-4007-9a82-fc95e32e2be0/v/3_b157e6/v2.mp4</BaseURL>
         <SegmentBase timescale="25" indexRange="772-27599">
           <Initialization range="0-771"></Initialization>
         </SegmentBase>
       </Representation>
       <Representation sar="1:1" mimeType="video/mp4" bandwidth="15720784" codecs="avc1.640029" height="1080" id="v7" width="1920">
-        <BaseURL>https://fly.asia.prd.media.max.com/43bb67d9-0be7-4007-9a82-fc95e32e2be0/v/3_b157e6/v/3_b157e6/v7.mp4</BaseURL>
+        <BaseURL>https://gcp.asia.prd.media.max.com/43bb67d9-0be7-4007-9a82-fc95e32e2be0/v/3_b157e6/v7.mp4</BaseURL>
         <SegmentBase timescale="25" indexRange="773-27600">
           <Initialization range="0-772"></Initialization>
         </SegmentBase>
