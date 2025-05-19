@@ -2,55 +2,7 @@
 <MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:cenc="urn:mpeg:cenc:2013" xmlns:scte214="urn:scte:dash:scte214-extensions" profiles="urn:mpeg:dash:profile:isoff-on-demand:2011" type="static" mediaPresentationDuration="PT1H30M35.639999999S" minBufferTime="PT2S">
   <Period id="1" duration="PT1H29M56.639999999S" start="PT0S">
     <BaseURL>https://cf.asia.prd.media.max.com/95a94036-42e6-49fd-87c6-51c260d4836f/</BaseURL>
-    <AdaptationSet subsegmentAlignment="true" subsegmentStartsWithSAP="1" id="6" lang="cmn-TW" contentType="audio">
-      <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="0100cb34-ca37-f76d-6bd5-a8fd71b06f7d" value="cenc"></ContentProtection>
-      <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95">
-        <cenc:pssh>AAACJnBzc2gAAAAAmgTweZhAQoarkuZb4IhflQAAAgYGAgAAAQABAPwBPABXAFIATQBIAEUAQQBEAEUAUgAgAHgAbQBsAG4AcwA9ACIAaAB0AHQAcAA6AC8ALwBzAGMAaABlAG0AYQBzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAEQAUgBNAC8AMgAwADAANwAvADAAMwAvAFAAbABhAHkAUgBlAGEAZAB5AEgAZQBhAGQAZQByACIAIAB2AGUAcgBzAGkAbwBuAD0AIgA0AC4AMAAuADAALgAwACIAPgA8AEQAQQBUAEEAPgA8AFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBFAFkATABFAE4APgAxADYAPAAvAEsARQBZAEwARQBOAD4APABBAEwARwBJAEQAPgBBAEUAUwBDAFQAUgA8AC8AQQBMAEcASQBEAD4APAAvAFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBJAEQAPgBOAE0AcwBBAEEAVABmAEsAYgBmAGQAcgAxAGEAagA5AGMAYgBCAHYAZgBRAD0APQA8AC8ASwBJAEQAPgA8AEMASABFAEMASwBTAFUATQA+AGgAaQBXAFgAdAB4AE8ANABlADAAMAA9ADwALwBDAEgARQBDAEsAUwBVAE0APgA8AC8ARABBAFQAQQA+ADwALwBXAFIATQBIAEUAQQBEAEUAUgA+AA==</cenc:pssh>
-      </ContentProtection>
-      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
-        <cenc:pssh>AAAAOHBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAABgSEAEAyzTKN/dta9Wo/XGwb31I49yVmwY=</cenc:pssh>
-      </ContentProtection>
-      <Representation mimeType="audio/mp4" audioSamplingRate="48000" bandwidth="66559" codecs="mp4a.40.5" id="a1">
-        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"></AudioChannelConfiguration>
-        <BaseURL>https://cf.asia.prd.media.max.com/95a94036-42e6-49fd-87c6-51c260d4836f/a/10_22ee14/a1.mp4</BaseURL>
-        <SegmentBase timescale="24000" indexRange="687-16942">
-          <Initialization range="0-686"></Initialization>
-        </SegmentBase>
-      </Representation>
-    </AdaptationSet>
-    <AdaptationSet subsegmentAlignment="true" subsegmentStartsWithSAP="1" id="7" lang="en-US" contentType="audio">
-      <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="0100cb34-ca37-f76d-6bd5-a8fd71b06f7d" value="cenc"></ContentProtection>
-      <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95">
-        <cenc:pssh>AAACJnBzc2gAAAAAmgTweZhAQoarkuZb4IhflQAAAgYGAgAAAQABAPwBPABXAFIATQBIAEUAQQBEAEUAUgAgAHgAbQBsAG4AcwA9ACIAaAB0AHQAcAA6AC8ALwBzAGMAaABlAG0AYQBzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAEQAUgBNAC8AMgAwADAANwAvADAAMwAvAFAAbABhAHkAUgBlAGEAZAB5AEgAZQBhAGQAZQByACIAIAB2AGUAcgBzAGkAbwBuAD0AIgA0AC4AMAAuADAALgAwACIAPgA8AEQAQQBUAEEAPgA8AFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBFAFkATABFAE4APgAxADYAPAAvAEsARQBZAEwARQBOAD4APABBAEwARwBJAEQAPgBBAEUAUwBDAFQAUgA8AC8AQQBMAEcASQBEAD4APAAvAFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBJAEQAPgBOAE0AcwBBAEEAVABmAEsAYgBmAGQAcgAxAGEAagA5AGMAYgBCAHYAZgBRAD0APQA8AC8ASwBJAEQAPgA8AEMASABFAEMASwBTAFUATQA+AGgAaQBXAFgAdAB4AE8ANABlADAAMAA9ADwALwBDAEgARQBDAEsAUwBVAE0APgA8AC8ARABBAFQAQQA+ADwALwBXAFIATQBIAEUAQQBEAEUAUgA+AA==</cenc:pssh>
-      </ContentProtection>
-      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
-        <cenc:pssh>AAAAOHBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAABgSEAEAyzTKN/dta9Wo/XGwb31I49yVmwY=</cenc:pssh>
-      </ContentProtection>
-      <Representation mimeType="audio/mp4" audioSamplingRate="48000" bandwidth="66577" codecs="mp4a.40.5" id="a10">
-        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"></AudioChannelConfiguration>
-        <BaseURL>https://cf.asia.prd.media.max.com/95a94036-42e6-49fd-87c6-51c260d4836f/a/10_22ee14/a10.mp4</BaseURL>
-        <SegmentBase timescale="24000" indexRange="687-16942">
-          <Initialization range="0-686"></Initialization>
-        </SegmentBase>
-      </Representation>
-    </AdaptationSet>
-    <AdaptationSet subsegmentAlignment="true" subsegmentStartsWithSAP="1" id="8" lang="id" contentType="audio">
-      <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="0100cb34-ca37-f76d-6bd5-a8fd71b06f7d" value="cenc"></ContentProtection>
-      <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95">
-        <cenc:pssh>AAACJnBzc2gAAAAAmgTweZhAQoarkuZb4IhflQAAAgYGAgAAAQABAPwBPABXAFIATQBIAEUAQQBEAEUAUgAgAHgAbQBsAG4AcwA9ACIAaAB0AHQAcAA6AC8ALwBzAGMAaABlAG0AYQBzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAEQAUgBNAC8AMgAwADAANwAvADAAMwAvAFAAbABhAHkAUgBlAGEAZAB5AEgAZQBhAGQAZQByACIAIAB2AGUAcgBzAGkAbwBuAD0AIgA0AC4AMAAuADAALgAwACIAPgA8AEQAQQBUAEEAPgA8AFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBFAFkATABFAE4APgAxADYAPAAvAEsARQBZAEwARQBOAD4APABBAEwARwBJAEQAPgBBAEUAUwBDAFQAUgA8AC8AQQBMAEcASQBEAD4APAAvAFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBJAEQAPgBOAE0AcwBBAEEAVABmAEsAYgBmAGQAcgAxAGEAagA5AGMAYgBCAHYAZgBRAD0APQA8AC8ASwBJAEQAPgA8AEMASABFAEMASwBTAFUATQA+AGgAaQBXAFgAdAB4AE8ANABlADAAMAA9ADwALwBDAEgARQBDAEsAUwBVAE0APgA8AC8ARABBAFQAQQA+ADwALwBXAFIATQBIAEUAQQBEAEUAUgA+AA==</cenc:pssh>
-      </ContentProtection>
-      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
-        <cenc:pssh>AAAAOHBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAABgSEAEAyzTKN/dta9Wo/XGwb31I49yVmwY=</cenc:pssh>
-      </ContentProtection>
-      <Representation mimeType="audio/mp4" audioSamplingRate="48000" bandwidth="66766" codecs="mp4a.40.5" id="a5">
-        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"></AudioChannelConfiguration>
-        <BaseURL>https://cf.asia.prd.media.max.com/95a94036-42e6-49fd-87c6-51c260d4836f/a/10_22ee14/a5.mp4</BaseURL>
-        <SegmentBase timescale="24000" indexRange="687-16942">
-          <Initialization range="0-686"></Initialization>
-        </SegmentBase>
-      </Representation>
-    </AdaptationSet>
-    <AdaptationSet subsegmentAlignment="true" subsegmentStartsWithSAP="1" id="9" lang="ms-MY" contentType="audio">
+    <AdaptationSet subsegmentAlignment="true" subsegmentStartsWithSAP="1" id="7" lang="ms-MY" contentType="audio">
       <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="0100cb34-ca37-f76d-6bd5-a8fd71b06f7d" value="cenc"></ContentProtection>
       <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95">
         <cenc:pssh>AAACJnBzc2gAAAAAmgTweZhAQoarkuZb4IhflQAAAgYGAgAAAQABAPwBPABXAFIATQBIAEUAQQBEAEUAUgAgAHgAbQBsAG4AcwA9ACIAaAB0AHQAcAA6AC8ALwBzAGMAaABlAG0AYQBzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAEQAUgBNAC8AMgAwADAANwAvADAAMwAvAFAAbABhAHkAUgBlAGEAZAB5AEgAZQBhAGQAZQByACIAIAB2AGUAcgBzAGkAbwBuAD0AIgA0AC4AMAAuADAALgAwACIAPgA8AEQAQQBUAEEAPgA8AFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBFAFkATABFAE4APgAxADYAPAAvAEsARQBZAEwARQBOAD4APABBAEwARwBJAEQAPgBBAEUAUwBDAFQAUgA8AC8AQQBMAEcASQBEAD4APAAvAFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBJAEQAPgBOAE0AcwBBAEEAVABmAEsAYgBmAGQAcgAxAGEAagA5AGMAYgBCAHYAZgBRAD0APQA8AC8ASwBJAEQAPgA8AEMASABFAEMASwBTAFUATQA+AGgAaQBXAFgAdAB4AE8ANABlADAAMAA9ADwALwBDAEgARQBDAEsAUwBVAE0APgA8AC8ARABBAFQAQQA+ADwALwBXAFIATQBIAEUAQQBEAEUAUgA+AA==</cenc:pssh>
@@ -66,7 +18,8 @@
         </SegmentBase>
       </Representation>
     </AdaptationSet>
-    <AdaptationSet subsegmentAlignment="true" subsegmentStartsWithSAP="1" id="10" lang="th" contentType="audio">
+
+    <AdaptationSet subsegmentAlignment="true" subsegmentStartsWithSAP="1" id="8" lang="en-US" contentType="audio">
       <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="0100cb34-ca37-f76d-6bd5-a8fd71b06f7d" value="cenc"></ContentProtection>
       <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95">
         <cenc:pssh>AAACJnBzc2gAAAAAmgTweZhAQoarkuZb4IhflQAAAgYGAgAAAQABAPwBPABXAFIATQBIAEUAQQBEAEUAUgAgAHgAbQBsAG4AcwA9ACIAaAB0AHQAcAA6AC8ALwBzAGMAaABlAG0AYQBzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAEQAUgBNAC8AMgAwADAANwAvADAAMwAvAFAAbABhAHkAUgBlAGEAZAB5AEgAZQBhAGQAZQByACIAIAB2AGUAcgBzAGkAbwBuAD0AIgA0AC4AMAAuADAALgAwACIAPgA8AEQAQQBUAEEAPgA8AFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBFAFkATABFAE4APgAxADYAPAAvAEsARQBZAEwARQBOAD4APABBAEwARwBJAEQAPgBBAEUAUwBDAFQAUgA8AC8AQQBMAEcASQBEAD4APAAvAFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBJAEQAPgBOAE0AcwBBAEEAVABmAEsAYgBmAGQAcgAxAGEAagA5AGMAYgBCAHYAZgBRAD0APQA8AC8ASwBJAEQAPgA8AEMASABFAEMASwBTAFUATQA+AGgAaQBXAFgAdAB4AE8ANABlADAAMAA9ADwALwBDAEgARQBDAEsAUwBVAE0APgA8AC8ARABBAFQAQQA+ADwALwBXAFIATQBIAEUAQQBEAEUAUgA+AA==</cenc:pssh>
@@ -74,30 +27,14 @@
       <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
         <cenc:pssh>AAAAOHBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAABgSEAEAyzTKN/dta9Wo/XGwb31I49yVmwY=</cenc:pssh>
       </ContentProtection>
-      <Representation mimeType="audio/mp4" audioSamplingRate="48000" bandwidth="66643" codecs="mp4a.40.5" id="a8">
+      <Representation mimeType="audio/mp4" audioSamplingRate="48000" bandwidth="66577" codecs="mp4a.40.5" id="a10">
         <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"></AudioChannelConfiguration>
-        <BaseURL>https://cf.asia.prd.media.max.com/95a94036-42e6-49fd-87c6-51c260d4836f/a/10_22ee14/a8.mp4</BaseURL>
+        <BaseURL>https://cf.asia.prd.media.max.com/95a94036-42e6-49fd-87c6-51c260d4836f/a/10_22ee14/a10.mp4</BaseURL>
         <SegmentBase timescale="24000" indexRange="687-16942">
           <Initialization range="0-686"></Initialization>
         </SegmentBase>
       </Representation>
-    </AdaptationSet>
-    <AdaptationSet subsegmentAlignment="true" subsegmentStartsWithSAP="1" id="11" lang="yue" contentType="audio">
-      <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="0100cb34-ca37-f76d-6bd5-a8fd71b06f7d" value="cenc"></ContentProtection>
-      <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95">
-        <cenc:pssh>AAACJnBzc2gAAAAAmgTweZhAQoarkuZb4IhflQAAAgYGAgAAAQABAPwBPABXAFIATQBIAEUAQQBEAEUAUgAgAHgAbQBsAG4AcwA9ACIAaAB0AHQAcAA6AC8ALwBzAGMAaABlAG0AYQBzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAEQAUgBNAC8AMgAwADAANwAvADAAMwAvAFAAbABhAHkAUgBlAGEAZAB5AEgAZQBhAGQAZQByACIAIAB2AGUAcgBzAGkAbwBuAD0AIgA0AC4AMAAuADAALgAwACIAPgA8AEQAQQBUAEEAPgA8AFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBFAFkATABFAE4APgAxADYAPAAvAEsARQBZAEwARQBOAD4APABBAEwARwBJAEQAPgBBAEUAUwBDAFQAUgA8AC8AQQBMAEcASQBEAD4APAAvAFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBJAEQAPgBOAE0AcwBBAEEAVABmAEsAYgBmAGQAcgAxAGEAagA5AGMAYgBCAHYAZgBRAD0APQA8AC8ASwBJAEQAPgA8AEMASABFAEMASwBTAFUATQA+AGgAaQBXAFgAdAB4AE8ANABlADAAMAA9ADwALwBDAEgARQBDAEsAUwBVAE0APgA8AC8ARABBAFQAQQA+ADwALwBXAFIATQBIAEUAQQBEAEUAUgA+AA==</cenc:pssh>
-      </ContentProtection>
-      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
-        <cenc:pssh>AAAAOHBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAABgSEAEAyzTKN/dta9Wo/XGwb31I49yVmwY=</cenc:pssh>
-      </ContentProtection>
-      <Representation mimeType="audio/mp4" audioSamplingRate="48000" bandwidth="66587" codecs="mp4a.40.5" id="a3">
-        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"></AudioChannelConfiguration>
-        <BaseURL>https://cf.asia.prd.media.max.com/95a94036-42e6-49fd-87c6-51c260d4836f/a/10_22ee14/a3.mp4</BaseURL>
-        <SegmentBase timescale="24000" indexRange="687-16942">
-          <Initialization range="0-686"></Initialization>
-        </SegmentBase>
-      </Representation>
-    </AdaptationSet>
+
     <AdaptationSet frameRate="25/1" subsegmentAlignment="true" subsegmentStartsWithSAP="1" id="12" par="16:9" maxWidth="1024" maxHeight="576" contentType="video">
       <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="01019328-9b74-fee7-813f-906ecf08d0e0" value="cenc"></ContentProtection>
       <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95">
@@ -191,39 +128,8 @@
         <EssentialProperty schemeIdUri="http://dashif.org/guidelines/thumbnail_tile" value="1x1"></EssentialProperty>
       </Representation>
     </AdaptationSet>
-    <AdaptationSet id="19" segmentAlignment="true" lang="en-US" contentType="text">
-      <Label>en-US</Label>
-      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"></Role>
-      <Representation mimeType="text/vtt" bandwidth="23" id="t0">
-        <SegmentTemplate media="t/4_300a5e/t0/$Number$.vtt" startNumber="1" timescale="1000">
-          <SegmentTimeline>
-            <S t="0" d="785280"></S>
-            <S t="785280" d="883560"></S>
-            <S t="1668840" d="930800"></S>
-            <S t="2599640" d="1038640"></S>
-            <S t="3638280" d="737799"></S>
-            <S t="4376080" d="1020560"></S>
-          </SegmentTimeline>
-        </SegmentTemplate>
-      </Representation>
-    </AdaptationSet>
-    <AdaptationSet id="20" segmentAlignment="true" lang="th" contentType="text">
-      <Label>th</Label>
-      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"></Role>
-      <Representation mimeType="text/vtt" bandwidth="33" id="t1">
-        <SegmentTemplate media="t/4_300a5e/t1/$Number$.vtt" startNumber="1" timescale="1000">
-          <SegmentTimeline>
-            <S t="0" d="785280"></S>
-            <S t="785280" d="883560"></S>
-            <S t="1668840" d="930800"></S>
-            <S t="2599640" d="1038640"></S>
-            <S t="3638280" d="737799"></S>
-            <S t="4376080" d="1020560"></S>
-          </SegmentTimeline>
-        </SegmentTemplate>
-      </Representation>
-    </AdaptationSet>
-    <AdaptationSet id="21" segmentAlignment="true" lang="ms-MY" contentType="text">
+
+    <AdaptationSet id="19" segmentAlignment="true" lang="ms-MY" contentType="text">
       <Label>ms-MY</Label>
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"></Role>
       <Representation mimeType="text/vtt" bandwidth="25" id="t2">
@@ -239,11 +145,12 @@
         </SegmentTemplate>
       </Representation>
     </AdaptationSet>
-    <AdaptationSet id="22" segmentAlignment="true" lang="id" contentType="text">
-      <Label>id</Label>
+
+    <AdaptationSet id="21" segmentAlignment="true" lang="en-US" contentType="text">
+      <Label>en-US</Label>
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"></Role>
-      <Representation mimeType="text/vtt" bandwidth="21" id="t3">
-        <SegmentTemplate media="t/4_300a5e/t3/$Number$.vtt" startNumber="1" timescale="1000">
+      <Representation mimeType="text/vtt" bandwidth="23" id="t0">
+        <SegmentTemplate media="t/4_300a5e/t0/$Number$.vtt" startNumber="1" timescale="1000">
           <SegmentTimeline>
             <S t="0" d="785280"></S>
             <S t="785280" d="883560"></S>
@@ -255,106 +162,6 @@
         </SegmentTemplate>
       </Representation>
     </AdaptationSet>
-    <AdaptationSet id="24" segmentAlignment="true" lang="zh-Hant-TW" contentType="text">
-      <Label>zh-Hant-TW</Label>
-      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"></Role>
-      <Representation mimeType="text/vtt" bandwidth="20" id="t5">
-        <SegmentTemplate media="t/4_300a5e/t5/$Number$.vtt" startNumber="1" timescale="1000">
-          <SegmentTimeline>
-            <S t="0" d="785280"></S>
-            <S t="785280" d="883560"></S>
-            <S t="1668840" d="930800"></S>
-            <S t="2599640" d="1038640"></S>
-            <S t="3638280" d="737799"></S>
-            <S t="4376080" d="1020560"></S>
-          </SegmentTimeline>
-        </SegmentTemplate>
-      </Representation>
-    </AdaptationSet>
-    <AdaptationSet id="25" segmentAlignment="true" lang="zh-Hans-SG" contentType="text">
-      <Label>zh-Hans-SG</Label>
-      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"></Role>
-      <Representation mimeType="text/vtt" bandwidth="20" id="t6">
-        <SegmentTemplate media="t/4_300a5e/t6/$Number$.vtt" startNumber="1" timescale="1000">
-          <SegmentTimeline>
-            <S t="0" d="785280"></S>
-            <S t="785280" d="883560"></S>
-            <S t="1668840" d="930800"></S>
-            <S t="2599640" d="1038640"></S>
-            <S t="3638280" d="737799"></S>
-            <S t="4376080" d="1020560"></S>
-          </SegmentTimeline>
-        </SegmentTemplate>
-      </Representation>
-    </AdaptationSet>
-  </Period>
-  <Period id="2" duration="PT9S" start="PT1H30M26.639999999S">
-    <BaseURL>https://cf.asia.prd.media.max.com/95a94036-42e6-49fd-87c6-51c260d4836f/</BaseURL>
-    <AdaptationSet subsegmentAlignment="true" subsegmentStartsWithSAP="1" id="1" lang="cmn-TW" contentType="audio">
-      <Representation mimeType="audio/mp4" audioSamplingRate="48000" bandwidth="63647" codecs="mp4a.40.5" id="a1">
-        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"></AudioChannelConfiguration>
-        <BaseURL>https://cf.asia.prd.media.max.com/95a94036-42e6-49fd-87c6-51c260d4836f/dc/9_e74e77/a1.mp4</BaseURL>
-        <SegmentBase timescale="24000" indexRange="607-674">
-          <Initialization range="0-606"></Initialization>
-        </SegmentBase>
-      </Representation>
-    </AdaptationSet>
-    <AdaptationSet frameRate="25/1" subsegmentAlignment="true" subsegmentStartsWithSAP="1" id="2" par="16:9" maxWidth="1920" maxHeight="1080" contentType="video">
-      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <Representation sar="1:1" mimeType="video/mp4" bandwidth="36602" codecs="avc1.4d400d" height="234" id="v0" width="416">
-        <BaseURL>https://cf.asia.prd.media.max.com/95a94036-42e6-49fd-87c6-51c260d4836f/dc/9_e74e77/v0.mp4</BaseURL>
-        <SegmentBase timescale="25" indexRange="685-752">
-          <Initialization range="0-684"></Initialization>
-        </SegmentBase>
-      </Representation>
-      <Representation sar="1:1" mimeType="video/mp4" bandwidth="42394" codecs="avc1.4d4015" height="270" id="v1" width="480">
-        <BaseURL>https://cf.asia.prd.media.max.com/95a94036-42e6-49fd-87c6-51c260d4836f/dc/9_e74e77/v1.mp4</BaseURL>
-        <SegmentBase timescale="25" indexRange="685-752">
-          <Initialization range="0-684"></Initialization>
-        </SegmentBase>
-      </Representation>`
-      <Representation sar="1:1" mimeType="video/mp4" bandwidth="49326" codecs="avc1.4d4015" height="306" id="v8" width="544">
-        <BaseURL>https://cf.asia.prd.media.max.com/95a94036-42e6-49fd-87c6-51c260d4836f/dc/9_e74e77/v8.mp4</BaseURL>
-        <SegmentBase timescale="25" indexRange="687-754">
-          <Initialization range="0-686"></Initialization>
-        </SegmentBase>
-      </Representation>
-      <Representation sar="1:1" mimeType="video/mp4" bandwidth="59946" codecs="avc1.4d401e" height="360" id="v2" width="640">
-        <BaseURL>https://cf.asia.prd.media.max.com/95a94036-42e6-49fd-87c6-51c260d4836f/dc/9_e74e77/v2.mp4</BaseURL>
-        <SegmentBase timescale="25" indexRange="687-754">
-          <Initialization range="0-686"></Initialization>
-        </SegmentBase>
-      </Representation>
-      <Representation sar="1:1" mimeType="video/mp4" bandwidth="76760" codecs="avc1.4d401e" height="432" id="v3" width="768">
-        <BaseURL>https://cf.asia.prd.media.max.com/95a94036-42e6-49fd-87c6-51c260d4836f/dc/9_e74e77/v3.mp4</BaseURL>
-        <SegmentBase timescale="25" indexRange="686-753">
-          <Initialization range="0-685"></Initialization>
-        </SegmentBase>
-      </Representation>
-      <Representation sar="1:1" mimeType="video/mp4" bandwidth="109830" codecs="avc1.4d401f" height="576" id="v7" width="1024">
-        <BaseURL>https://cf.asia.prd.media.max.com/95a94036-42e6-49fd-87c6-51c260d4836f/dc/9_e74e77/v7.mp4</BaseURL>
-        <SegmentBase timescale="25" indexRange="686-753">
-          <Initialization range="0-685"></Initialization>
-        </SegmentBase>
-      </Representation>
-      <Representation sar="1:1" mimeType="video/mp4" bandwidth="142624" codecs="avc1.4d401f" height="720" id="v5" width="1280">
-        <BaseURL>https://cf.asia.prd.media.max.com/95a94036-42e6-49fd-87c6-51c260d4836f/dc/9_e74e77/v5.mp4</BaseURL>
-        <SegmentBase timescale="25" indexRange="687-754">
-          <Initialization range="0-686"></Initialization>
-        </SegmentBase>
-      </Representation>
-      <Representation sar="1:1" mimeType="video/mp4" bandwidth="195772" codecs="avc1.4d4028" height="900" id="v4" width="1600">
-        <BaseURL>https://cf.asia.prd.media.max.com/95a94036-42e6-49fd-87c6-51c260d4836f/dc/9_e74e77/v4.mp4</BaseURL>
-        <SegmentBase timescale="25" indexRange="687-754">
-          <Initialization range="0-686"></Initialization>
-        </SegmentBase>
-      </Representation>
-      <Representation sar="1:1" mimeType="video/mp4" bandwidth="244356" codecs="avc1.4d4028" height="1080" id="v6" width="1920">
-        <BaseURL>https://cf.asia.prd.media.max.com/95a94036-42e6-49fd-87c6-51c260d4836f/dc/9_e74e77/v6.mp4</BaseURL>
-        <SegmentBase timescale="25" indexRange="689-756">
-          <Initialization range="0-688"></Initialization>
-        </SegmentBase>
-      </Representation>
-    </AdaptationSet>
+
   </Period>
 </MPD>
