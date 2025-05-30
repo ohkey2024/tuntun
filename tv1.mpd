@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:cenc="urn:mpeg:cenc:2013" xmlns:dashif="https://dashif.org/" xmlns:scte214="urn:scte:dash:scte214-extensions" xmlns:scte35="http://www.scte.org/schemas/35/2016" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" availabilityStartTime="2025-03-04T16:21:16Z" maxSegmentDuration="PT6.016S" minBufferTime="PT6S" minimumUpdatePeriod="PT18S" profiles="urn:mpeg:dash:profile:isoff-live:2011" publishTime="2025-05-30T00:01:49Z" timeShiftBufferDepth="PT52.0S" type="dynamic" xsi:schemalocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd http://dashif.org/guidelines/ContentProtection laurl.xsd">
    <Period id="P0" start="PT0S">
-   <BaseURL>https://web.hypp.tv:443/PLTV/88888888/224/3221225724/</BaseURL>
+   <BaseURL>https://centerrrs.hypp.tv/PLTV/88888888/224/3221225724/</BaseURL>
       <AdaptationSet contentType="video" id="0" maxFrameRate="25" maxHeight="1080" maxWidth="1920" mimeType="video/mp4" minFrameRate="25" minHeight="270" minWidth="480" par="16:9" segmentAlignment="true" startWithSAP="1">
          <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"/>
          <ContentProtection schemeIdUri="urn:uuid:9a27dd82-fde2-4725-8cbc-4234aa06ec09">
