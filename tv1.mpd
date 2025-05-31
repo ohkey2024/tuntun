@@ -1,128 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MPD xmlns="urn:mpeg:dash:schema:mpd:2011"
      xmlns:cenc="urn:mpeg:cenc:2013"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     type="dynamic"
-     availabilityStartTime="2025-03-04T16:21:16Z"
-     publishTime="2025-05-30T00:01:49Z"
-     minimumUpdatePeriod="PT18S"
-     timeShiftBufferDepth="PT52.0S"
-     minBufferTime="PT6S"
-     profiles="urn:mpeg:dash:profile:isoff-live:2011"
-     maxSegmentDuration="PT6.016S"
-     xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd">
+     type="static"
+     minBufferTime="PT5S"
+     mediaPresentationDuration="PT60S"
+     profiles="urn:mpeg:dash:profile:isoff-on-demand:2011">
 
-  <Period id="P0" start="PT0S">
+  <Period duration="PT60S">
     <BaseURL>https://pop5clustera00f00619231b2c6f32bd.hypp.tv/wh7f454c46tw527522661_894184951/PLTV/88888888/224/3221225724/</BaseURL>
 
-    <AdaptationSet contentType="video"
-                   mimeType="video/mp4"
-                   segmentAlignment="true"
-                   startWithSAP="1"
-                   maxWidth="1920"
-                   maxHeight="1080"
-                   maxFrameRate="25"
-                   minWidth="480"
-                   minHeight="270"
-                   minFrameRate="25"
-                   par="16:9"
-                   id="0">
-
-      <!-- ClearKey Protection -->
+    <AdaptationSet mimeType="video/mp4" codecs="avc1.64001E" contentType="video" segmentAlignment="true" startWithSAP="1">
       <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"/>
-      <ContentProtection
-        schemeIdUri="urn:uuid:e2719d58-a985-b3c9-781a-b030af78d30e"
-        cenc:default_KID="5aa0abae-1506-d547-a21b-2a68b11017cd">
+      <ContentProtection schemeIdUri="urn:uuid:e2719d58-a985-b3c9-781a-b030af78d30e"
+                         cenc:default_KID="5aa0abae-1506-d547-a21b-2a68b11017cd">
         <cenc:pssh>AAAANHBzc2gAAAAAmnGdWKmFs8l4GrAwr3jTDgAAAAI=</cenc:pssh>
       </ContentProtection>
 
-      <Representation id="Video1_1"
-                      bandwidth="250000"
-                      width="480"
-                      height="270"
-                      frameRate="25"
-                      codecs="avc1.640015"
-                      sar="0:0"
-                      scanType="progressive">
+      <Representation id="v1" bandwidth="500000" width="640" height="360" frameRate="25">
         <SegmentTemplate
           timescale="1000000"
           duration="6000000"
           startNumber="1"
-          initialization="video-$RepresentationID$-init.m4i?hw_dash=1"
-          media="video-$RepresentationID$-$Number$.m4v?hw_dash=1"/>
-      </Representation>
-
-      <Representation id="Video1_2"
-                      bandwidth="500000"
-                      width="640"
-                      height="360"
-                      frameRate="25"
-                      codecs="avc1.64001E"
-                      sar="0:0"
-                      scanType="progressive">
-        <SegmentTemplate
-          timescale="1000000"
-          duration="6000000"
-          startNumber="1"
-          initialization="video-$RepresentationID$-init.m4i?hw_dash=1"
-          media="video-$RepresentationID$-$Number$.m4v?hw_dash=1"/>
-      </Representation>
-
-      <Representation id="Video1_3"
-                      bandwidth="1000000"
-                      width="1280"
-                      height="720"
-                      frameRate="25"
-                      codecs="avc1.640020"
-                      sar="0:0"
-                      scanType="progressive">
-        <SegmentTemplate
-          timescale="1000000"
-          duration="6000000"
-          startNumber="1"
-          initialization="video-$RepresentationID$-init.m4i?hw_dash=1"
-          media="video-$RepresentationID$-$Number$.m4v?hw_dash=1"/>
-      </Representation>
-
-      <Representation id="Video1_4"
-                      bandwidth="2000000"
-                      width="1920"
-                      height="1080"
-                      frameRate="25"
-                      codecs="avc1.640028"
-                      sar="0:0"
-                      scanType="progressive">
-        <SegmentTemplate
-          timescale="1000000"
-          duration="6000000"
-          startNumber="1"
-          initialization="video-$RepresentationID$-init.m4i?hw_dash=1"
-          media="video-$RepresentationID$-$Number$.m4v?hw_dash=1"/>
-      </Representation>
-
-    </AdaptationSet>
-
-    <AdaptationSet contentType="audio"
-                   mimeType="audio/mp4"
-                   segmentAlignment="true"
-                   startWithSAP="1"
-                   lang="eng"
-                   id="1">
-      <Representation id="Audio1"
-                      bandwidth="96000"
-                      audioSamplingRate="48000"
-                      codecs="mp4a.40.2">
-        <AudioChannelConfiguration
-          schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011"
-          value="2"/>
-        <SegmentTemplate
-          timescale="1000000"
-          duration="6000000"
-          startNumber="1"
-          initialization="audio-$RepresentationID$-init.m4i?hw_dash=1"
-          media="audio-$RepresentationID$-$Number$.m4a?hw_dash=1"/>
+          initialization="video-v1-init.m4i?hw_dash=1"
+          media="video-v1-$Number$.m4v?hw_dash=1" />
       </Representation>
     </AdaptationSet>
 
+    <AdaptationSet mimeType="audio/mp4" codecs="mp4a.40.2" contentType="audio" segmentAlignment="true" startWithSAP="1" lang="eng">
+      <Representation id="a1" bandwidth="96000" audioSamplingRate="48000">
+        <SegmentTemplate
+          timescale="1000000"
+          duration="6000000"
+          startNumber="1"
+          initialization="audio-a1-init.m4i?hw_dash=1"
+          media="audio-a1-$Number$.m4a?hw_dash=1"/>
+      </Representation>
+    </AdaptationSet>
   </Period>
 </MPD>
