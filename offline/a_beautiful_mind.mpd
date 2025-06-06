@@ -26,9 +26,9 @@
       <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
         <cenc:pssh>AAAAOHBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAABgSEAEAoV5ihKWnTugX0Lmupd1I49yVmwY=</cenc:pssh>
       </ContentProtection>
-      <Representation mimeType="audio/mp4" audioSamplingRate="48000" bandwidth="66498" codecs="mp4a.40.5" id="a2">
+      <Representation mimeType="audio/mp4" audioSamplingRate="48000" bandwidth="66498" codecs="mp4a.40.5" id="a1">
         <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"></AudioChannelConfiguration>
-        <BaseURL>a/1_154c8c/a2.mp4</BaseURL>
+        <BaseURL>a/1_154c8c/a1.mp4</BaseURL>
         <SegmentBase timescale="24000" indexRange="687-24142">
           <Initialization range="0-686"></Initialization>
         </SegmentBase>
@@ -43,7 +43,7 @@
       <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
         <cenc:pssh>AAAAOHBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAABgSEAEAoV5ihKWnTugX0Lmupd1I49yVmwY=</cenc:pssh>
       </ContentProtection>
-      <Representation mimeType="audio/mp4" audioSamplingRate="48000" bandwidth="66498" codecs="mp4a.40.5" id="a2">
+      <Representation mimeType="audio/mp4" audioSamplingRate="48000" bandwidth="66498" codecs="mp4a.40.5" id="a3">
         <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"></AudioChannelConfiguration>
         <BaseURL>a/1_154c8c/a3.mp4</BaseURL>
         <SegmentBase timescale="24000" indexRange="687-24142">
