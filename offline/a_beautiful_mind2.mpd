@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<MPD mediaPresentationDuration="PT2H9M54S" minBufferTime="PT4.00S" profiles="urn:mpeg:dash:profile:isoff-on-demand:2011" type="static" xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:cenc="urn:mpeg:cenc:2013">
+  <Period>
+    <AdaptationSet maxHeight="576" maxWidth="1024" mimeType="video/mp4" id="0" segmentAlignment="true" startWithSAP="1">
+      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed" cenc:default_KID="2d516605-4fd5-4d68-0ab8-10ab7d62bb10">
+        <cenc:pssh>AAAATHBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACwiJDE3NWQ5ZWM0LTVmOGEtNTRlZi1iMmVjLWE5ZmVjMTFkZjBkZEjj3JWbBg==</cenc:pssh>
+      </ContentProtection>
+      <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" cenc:default_KID="2d516605-4fd5-4d68-0ab8-10ab7d62bb10" />
+      <SegmentTemplate duration="540000" initialization="$RepresentationID$/video/init.mp4" media="$RepresentationID$_184201/segment_$Number$.m4s" startNumber="0" timescale="90000" presentationTimeOffset="7200" />
+      <Representation bandwidth="247600" codecs="avc1.64001F" height="144" width="256" id="175d9ec4-5f8a-54ef-b2ec-a9fec11df0dd-0_video_frag_auto.idx~video_frag_auto~481" scanType="progressive" />
+      <Representation bandwidth="457600" codecs="avc1.64001F" height="288" width="512" id="175d9ec4-5f8a-54ef-b2ec-a9fec11df0dd-1_video_frag_auto.idx~video_frag_auto~481" scanType="progressive" />
+      <Representation bandwidth="824800" codecs="avc1.64001F" height="360" width="640" id="175d9ec4-5f8a-54ef-b2ec-a9fec11df0dd-2_video_frag_auto.idx~video_frag_auto~481" scanType="progressive" />
+      <Representation bandwidth="1297600" codecs="avc1.64001F" height="480" width="854" id="175d9ec4-5f8a-54ef-b2ec-a9fec11df0dd-3_video_frag_auto.idx~video_frag_auto~481" scanType="progressive" />
+      <Representation bandwidth="1717600" codecs="avc1.64001F" height="576" width="1024" id="175d9ec4-5f8a-54ef-b2ec-a9fec11df0dd-4_video_frag_auto.idx~video_frag_auto~481" scanType="progressive" />
+    </AdaptationSet>
+    <AdaptationSet lang="eng" mimeType="audio/mp4" id="1" segmentAlignment="true" startWithSAP="1">
+      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed" cenc:default_KID="2d516605-4fd5-4d68-0ab8-10ab7d62bb10">
+        <cenc:pssh>AAAATHBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACwiJDE3NWQ5ZWM0LTVmOGEtNTRlZi1iMmVjLWE5ZmVjMTFkZjBkZEjj3JWbBg==</cenc:pssh>
+      </ContentProtection>
+      <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" cenc:default_KID="2d516605-4fd5-4d68-0ab8-10ab7d62bb10" />
+      <SegmentTemplate duration="540000" media="$RepresentationID$_184201/segment_$Number$.m4a" startNumber="0" timescale="90000" initialization="$RepresentationID$/audio/init.mp4" presentationTimeOffset="7200" />
+      <Representation bandwidth="104000" codecs="mp4a.40.29" id="175d9ec4-5f8a-54ef-b2ec-a9fec11df0dd-0_audio_frag_482_64000.idx~audio_frag_482_64000~extrAud_0_2" audioSamplingRate="24000" scanType="progressive" />
+    </AdaptationSet>
+	<AdaptationSet lang="may" mimeType="audio/mp4" id="6" segmentAlignment="true" startWithSAP="1">
+  <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed" cenc:default_KID="2d516605-4fd5-4d68-0ab8-10ab7d62bb10">
+    <cenc:pssh>AAAATHBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACwiJDE3NWQ5ZWM0LTVmOGEtNTRlZi1iMmVjLWE5ZmVjMTFkZjBkZEjj3JWbBg==</cenc:pssh>
+  </ContentProtection>
+  <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" cenc:default_KID="2d516605-4fd5-4d68-0ab8-10ab7d62bb10" />
+  <SegmentTemplate duration="540000" media="$RepresentationID$_184201/segment_$Number$.m4a" startNumber="0" timescale="90000" initialization="$RepresentationID$/audio/init.mp4" presentationTimeOffset="7200" />
+  <Representation bandwidth="104000" codecs="mp4a.40.29" id="175d9ec4-5f8a-54ef-b2ec-a9fec11df0dd-1_audio_frag_482_64000.idx~audio_frag_482_64000~extrAud_0_3" audioSamplingRate="24000" scanType="progressive" />
+</AdaptationSet>
+    <AdaptationSet maxHeight="144" maxWidth="256" mimeType="video/mp4" id="5" segmentAlignment="true" startWithSAP="1">
+      <EssentialProperty schemeIdUri="http://dashif.org/guidelines/trickmode" value="0" />
+      <SegmentTemplate duration="540000" initialization="$RepresentationID$/i-frame/init.mp4" media="$RepresentationID$_184201/segment_$Number$.m4s" presentationTimeOffset="7200" startNumber="0" timescale="90000" />
+      <Representation bandwidth="72944" codecs="avc1.64001F" height="144" width="256" maxPlayoutRate="10" id="175d9ec4-5f8a-54ef-b2ec-a9fec11df0dd-0_i-frame.idx~i-frame~481~avc" scanType="progressive" />
+    </AdaptationSet>
+    <AdaptationSet lang="chi" mimeType="application/mp4" contentType="text" id="2" segmentAlignment="true">
+      <SegmentTemplate media="$RepresentationID$/90000/0/segment_$Time$.m4f" startNumber="0" timescale="90000" initialization="$RepresentationID$/subtitle/90000/0/init.mp4">
+        <SegmentTimeline>
+          <S d="540000" r="1298" />
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation bandwidth="20000" codecs="stpp" startWithSAP="1" id="MPD~cc_frag_chi_CEA-608__/stpp" />
+    </AdaptationSet>
+    <AdaptationSet lang="eng" mimeType="application/mp4" contentType="text" id="3" segmentAlignment="true">
+      <SegmentTemplate media="$RepresentationID$/90000/0/segment_$Time$.m4f" startNumber="0" timescale="90000" initialization="$RepresentationID$/subtitle/90000/0/init.mp4">
+        <SegmentTimeline>
+          <S d="540000" r="1298" />
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation bandwidth="20000" codecs="stpp" startWithSAP="1" id="MPD~cc_frag_eng_CEA-608__/stpp" />
+    </AdaptationSet>
+    <AdaptationSet lang="may" mimeType="application/mp4" contentType="text" id="4" segmentAlignment="true">
+      <SegmentTemplate media="$RepresentationID$/90000/0/segment_$Time$.m4f" startNumber="0" timescale="90000" initialization="$RepresentationID$/subtitle/90000/0/init.mp4">
+        <SegmentTimeline>
+          <S d="540000" r="1298" />
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation bandwidth="20000" codecs="stpp" startWithSAP="1" id="MPD~cc_frag_may_CEA-608__/stpp" />
+    </AdaptationSet>
+  </Period>
+</MPD>
