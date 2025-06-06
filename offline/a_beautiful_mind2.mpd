@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <MPD mediaPresentationDuration="PT2H9M54S" minBufferTime="PT4.00S" profiles="urn:mpeg:dash:profile:isoff-on-demand:2011" type="static" xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:cenc="urn:mpeg:cenc:2013">
   <Period>
+  <BaseURL>https://vodejitp-asset-playback-b.astro.com.my/v4/default/dash-wv/vode/</BaseURL>
     <AdaptationSet maxHeight="576" maxWidth="1024" mimeType="video/mp4" id="0" segmentAlignment="true" startWithSAP="1">
       <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed" cenc:default_KID="2d516605-4fd5-4d68-0ab8-10ab7d62bb10">
         <cenc:pssh>AAAATHBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACwiJDE3NWQ5ZWM0LTVmOGEtNTRlZi1iMmVjLWE5ZmVjMTFkZjBkZEjj3JWbBg==</cenc:pssh>
