@@ -39,18 +39,13 @@
                    width="1280" height="720" sar="1:1" frameRate="50"
                    mimeType="video/mp4" codecs="hvc1.1.6.L120.B0" startWithSAP="1">
       <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"
-                         cenc:default_KID="B3C6AEE1-3E43-4D7B-8B50-DD8871811EAD"/>
+                         cenc:default_KID="b3c6aee1-3e43-4d7b-8b50-dd8871811ead"/>
       <ContentProtection schemeIdUri="urn:uuid:EDEF8BA9-79D6-4ACE-A3C8-27DCD51D21ED">
-        <cenc:pssh>
-          AAAAMnBzc2gAAAAAmgTweeYQQoarkuZb4IhflQAAAAGQAAAAAAAAAAABs8augT5D03i1DdihxgerrQ=
-        </cenc:pssh>
+        <cenc:pssh>AAAAVHBzc2gAAAAAmgTweeYQQoarkuZb4IhflQAAAAGQAAAAAAAAAAABs8augT5D03i1DdihxgerrQ=</cenc:pssh>
       </ContentProtection>
       <ContentProtection schemeIdUri="urn:uuid:9A04F079-9840-4286-AB92-E65BE0885F95"
                          value="MSPR 2.0">
-        <cenc:pssh>
-          AAACAHBzc2gAAAAAmgTweeYQQoarkuZb4IhflQAAAPoIARIQAAAAAAAAAAAAAAABbPGrhPkPTeLUN2KHG
-          Hq60Ck1FT0VVUkVTVEJFTkNSSVlLRVlDT01QQVJZAAA=
-        </cenc:pssh>
+        <cenc:pssh>AAAAl3Bzc2gAAAAAmgTweeYQQoarkuZb4IhflQAAAFoBmgTweeYQQoarkuZb4IhflQAAAAMQAAAAAAAAAAAAAAAEgAAAAAAAAAOgAAAAAAAEUAAABMUExBWUVSQURZQ1JZUFRLRVlDT01QQVJZ</cenc:pssh>
       </ContentProtection>
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
       <SegmentTemplate timescale="600"
