@@ -6,36 +6,18 @@
     xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 
         http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd"
     type="dynamic"
-    availabilityStartTime="2025-06-11T03:05:07Z"           <!-- Adjusted to recent live start -->
+    availabilityStartTime="2025-06-11T03:05:07Z"
     publishTime="2025-06-11T03:08:11.936129Z"
     minimumUpdatePeriod="PT2S"
     timeShiftBufferDepth="PT3M"
     maxSegmentDuration="PT3S"
     minBufferTime="PT2S"
     profiles="urn:mpeg:dash:profile:isoff-live:2011">
-  
+
   <Period id="1" start="PT0S">
     <BaseURL>https://l11.dp.sooka.my/1601/linear/dash/</BaseURL>
 
-    <!-- Audio (EC-3) -->
-    <AdaptationSet id="1" group="1" contentType="audio" lang="en" segmentAlignment="true"
-                   audioSamplingRate="48000" mimeType="audio/mp4" codecs="ec-3" startWithSAP="1">
-      <AudioChannelConfiguration schemeIdUri="tag:dolby.com,2014:dash:audio_channel_configuration:2011"
-                                 value="A000"/>
-      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
-      <SegmentTemplate timescale="48000"
-                       initialization="1601-$RepresentationID$.dash"
-                       media="1601-$RepresentationID$-$Time$.dash">
-        <SegmentTimeline>
-          <S t="83981333136415" d="96768"/>
-          <S d="95232"/>
-          <!-- (rest of the original timeline entries) -->
-        </SegmentTimeline>
-      </SegmentTemplate>
-      <Representation id="audio_401281_eng=401200" bandwidth="401200"/>
-    </AdaptationSet>
-
-    <!-- Alternate audio (AAC) -->
+    <!-- Audio: AAC only -->
     <AdaptationSet id="2" group="1" contentType="audio" lang="en" segmentAlignment="true"
                    audioSamplingRate="48000" mimeType="audio/mp4" codecs="mp4a.40.29" startWithSAP="1">
       <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011"
@@ -47,24 +29,28 @@
         <SegmentTimeline>
           <S t="83981333136477" d="96256" r="6"/>
           <S d="94208"/>
-          <!-- (rest of the original timeline entries) -->
         </SegmentTimeline>
       </SegmentTemplate>
       <Representation id="audio_81280_eng=81200" bandwidth="81200"/>
     </AdaptationSet>
 
-    <!-- Video (720p) -->
+    <!-- Video -->
     <AdaptationSet id="3" group="2" contentType="video" par="16:9" segmentAlignment="true"
                    width="1280" height="720" sar="1:1" frameRate="50"
                    mimeType="video/mp4" codecs="hvc1.1.6.L120.B0" startWithSAP="1">
       <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"
                          cenc:default_KID="B3C6AEE1-3E43-4D7B-8B50-DD8871811EAD"/>
       <ContentProtection schemeIdUri="urn:uuid:EDEF8BA9-79D6-4ACE-A3C8-27DCD51D21ED">
-        <cenc:pssh>AAAAMnBzc2gA…(Widevine Base64 PSSH)…</cenc:pssh>
+        <cenc:pssh>
+          AAAAMnBzc2gAAAAAmgTweeYQQoarkuZb4IhflQAAAAGQAAAAAAAAAAABs8augT5D03i1DdihxgerrQ=
+        </cenc:pssh>
       </ContentProtection>
       <ContentProtection schemeIdUri="urn:uuid:9A04F079-9840-4286-AB92-E65BE0885F95"
                          value="MSPR 2.0">
-        <cenc:pssh>AAAC+nBzc2gA…(PlayReady Base64 PSSH)…</cenc:pssh>
+        <cenc:pssh>
+          AAACAHBzc2gAAAAAmgTweeYQQoarkuZb4IhflQAAAPoIARIQAAAAAAAAAAAAAAABbPGrhPkPTeLUN2KHG
+          Hq60Ck1FT0VVUkVTVEJFTkNSSVlLRVlDT01QQVJZAAA=
+        </cenc:pssh>
       </ContentProtection>
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
       <SegmentTemplate timescale="600"
